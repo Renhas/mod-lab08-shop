@@ -1,7 +1,7 @@
 ﻿// Copyright 2021 GHA Test Team
 #include <iostream>
-#include "../ShopLib/task.h"
 #include <random>
+#include "task.h"
 
 struct Result {
     float lambda;
