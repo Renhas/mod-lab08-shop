@@ -1,6 +1,7 @@
 ﻿// Copyright 2021 GHA Test Team
 #include <iostream>
 #include <random>
+#include <cmath>
 #include "task.h"
 
 struct Result {
