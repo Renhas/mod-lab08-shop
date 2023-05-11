@@ -1,5 +1,5 @@
 // Copyright 2021 GHA Test Team
-#include "gtest/gtest.h"
+#include <gtest/gtest.h>
 #include "task.h"
 
 TEST(Customer_tests, create) {
