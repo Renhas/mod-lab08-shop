@@ -155,7 +155,7 @@ Result CalculateActual(Stats stats, int queue_length)
     float avg_work_time = total_work_time / checkouts_count;
     float avg_free_time = work_time - avg_work_time;
     float one_proba = avg_free_time / work_time;
-    res.free_probability = std::powf(one_proba, checkouts_count);
+    res.free_probability = powf(one_proba, checkouts_count);
     res.queue_probability = res.avg_queue_length / queue_length;
     res.ro = res.lambda / res.mu;
     return res;
